@@ -539,7 +539,7 @@ section {
 
 .plan-card {
     background: var(--bg2);
-    padding: 40px 32px;
+    padding: 28px 26px;
     position: relative;
     overflow: hidden;
     transition: background .3s;
@@ -1648,7 +1648,7 @@ footer {
     background-position: center;
 }
 
-.thumb-label {
+/* .thumb-label {
     position: absolute;
     inset: 0;
     display: flex;
@@ -1660,7 +1660,7 @@ footer {
     letter-spacing: -.04em;
     color: rgba(255, 255, 255, .1);
     user-select: none;
-}
+} */
 
 .thumb-overlay {
     position: absolute;
@@ -2036,7 +2036,7 @@ footer {
     }
 
     .plans-container .plan-card {
-        min-width: min(320px, 84vw);
+        max-width: max(220px, 70vw);
         scroll-snap-align: start;
         flex-shrink: 0;
     }
