@@ -1613,7 +1613,7 @@ footer {
 
 /* Gradientes por projeto */
 .t1 {
-    background: url("./img/sites/noxe.png");
+    background: url("./img/sites/lojaRoupa.png");
     background-size: cover;
     background-position: center;
 }
@@ -1644,6 +1644,12 @@ footer {
 
 .t6 {
     background: url("./img/sites/clinicaLumina.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.t7 {
+    background: url("./img/sites/ClinicaGeral.png");
     background-size: cover;
     background-position: center;
 }
